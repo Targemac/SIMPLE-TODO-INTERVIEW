@@ -1,13 +1,13 @@
 import "./App.css";
 import Layout from "./Components/Layout";
-import TodoProviderContext from "./Providers/TodoProvider";
+import { TodoProvider } from "./Context/TodoProvider";
 
 function App() {
   return (
     <div className="App">
-      <TodoProviderContext>
+      <TodoProvider>
         <Layout />
-      </TodoProviderContext>
+      </TodoProvider>
     </div>
   );
 }
