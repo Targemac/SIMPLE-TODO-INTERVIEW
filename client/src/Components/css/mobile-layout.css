@@ -1,0 +1,7 @@
+/* mobile  view of <= 320px */
+
+@media only screen and (max-device-width: 320px) {
+  .todo_wrapper {
+    border: 2px solid grey;
+  }
+}

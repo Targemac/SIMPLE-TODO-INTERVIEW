@@ -1,0 +1,6 @@
+/* tablet  view of >= 320px and <=768px */
+@media only screen and(min-device-width:320px) {
+  .todo_wrapper {
+    border: 1px solid grey;
+  }
+}
